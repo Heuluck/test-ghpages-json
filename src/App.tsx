@@ -16,7 +16,7 @@ function App() {
                 className="px-3 py-2 border border-gray-400 rounded-lg my-8 mx-8"
                 placeholder="Search for a version"
             />
-            <a href="./versions.json" target="_blank" rel="noreferrer" className="text-blue-500">
+            <a href="/versions.json" target="_blank" rel="noreferrer" className="text-blue-500">
                 JSON File
             </a>
             <div className="flex flex-col gap-4 text-gray-600">
@@ -64,7 +64,7 @@ interface VersionData {
 }
 
 async function getVersionData(): Promise<VersionData> {
-    const response = await fetch('./versions.json');
+    const response = await fetch('/versions.json');
     const data = await response.json();
     return data;
 }
