@@ -21,8 +21,8 @@ jobs:
               uses: actions/setup-node@v3
               with:
                   node-version: ${{ matrix.node-version }}
-                  cmd: 'corepack enable'
                   cache: 'yarn'
+            - run: corepack enable
             - name: Install Dependencies
               uses: borales/actions-yarn@v4
               with:
