@@ -42,5 +42,13 @@
                 "converted": ["v1.2.0"]
             }
         ]
+    },
+    "curl": {
+        "versions": [
+            {
+                "original": "7.83.0",
+                "converted": ["v1.0.0"]
+            }
+        ]
     }
 }
