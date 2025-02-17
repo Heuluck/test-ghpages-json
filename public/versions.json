@@ -50,5 +50,13 @@
                 "converted": ["v1.0.0"]
             }
         ]
+    },
+    "ctest": {
+        "versions": [
+            {
+                "original": "0.2.3",
+                "converted": ["v0.1.0", "v0.1.1"]
+            }
+        ]
     }
 }
