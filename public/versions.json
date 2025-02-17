@@ -26,5 +26,21 @@
                 "converted": ["v2.0.0"]
             }
         ]
+    },
+    "cjson": {
+        "versions": [
+            {
+                "original": "1.7.16",
+                "converted": ["v1.0.0"]
+            },
+            {
+                "original": "1.7.17",
+                "converted": ["v1.1.0"]
+            },
+            {
+                "original": "1.7.18",
+                "converted": ["v1.2.0"]
+            }
+        ]
     }
 }
