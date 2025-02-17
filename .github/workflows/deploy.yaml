@@ -2,7 +2,7 @@ name: Redeploy
 
 on:
     push:
-        branches: ['main']
+        branches: 'main'
         paths-ignore:
             - 'README.md'
             - 'public/versions.json'
