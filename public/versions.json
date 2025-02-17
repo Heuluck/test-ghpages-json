@@ -43,7 +43,7 @@
             }
         ]
     },
-    "curl": {
+    "cute": {
         "versions": [
             {
                 "original": "7.83.0",
