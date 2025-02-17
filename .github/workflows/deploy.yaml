@@ -1,11 +1,11 @@
-name: Deploy
+name: Redeploy
 
 on:
     push:
         branches: ['main']
         paths-ignore:
             - 'README.md'
-            - '/public/versions.json'
+            - 'public/versions.json'
 
 permissions:
     contents: write
