@@ -15,7 +15,7 @@ const Search: React.FC<SearchProps> = ({ setSearch }) => {
                 />
             </div>
             <a href="./versions.json" target="_blank" rel="noreferrer" className="text-blue-500">
-                JSON File
+                Raw JSON
             </a>
         </div>
     );

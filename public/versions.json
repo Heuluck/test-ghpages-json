@@ -11,7 +11,7 @@
             }
         ]
     },
-    "zlib": {
+    "goodlib": {
         "versions": [
             {
                 "original": "11.4",
@@ -27,7 +27,7 @@
             }
         ]
     },
-    "cjson": {
+    "goodjson": {
         "versions": [
             {
                 "original": "1.7.16",
@@ -48,6 +48,30 @@
             {
                 "original": "7.83.0",
                 "converted": ["v1.0.0"]
+            },
+            {
+                "original": "7.84.0",
+                "converted": ["v1.1.0"]
+            },
+            {
+                "original": "7.84.1",
+                "converted": ["v1.2.0"]
+            },
+            {
+                "original": "8.0.0",
+                "converted": ["v2.0.0", "v2.0.1", "v2.0.2"]
+            },
+            {
+                "original": "8.1.0",
+                "converted": ["v2.1.0", "v2.1.1"]
+            },
+            {
+                "original": "8.2.0",
+                "converted": ["v2.2.0"]
+            },
+            {
+                "original": "8.3.0",
+                "converted": ["v2.3.0"]
             }
         ]
     },
